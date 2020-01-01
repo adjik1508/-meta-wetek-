@@ -4,7 +4,7 @@ require conf/distro/multilib.inc
 
 # Amlogic defaults
 require conf/machine/include/wetek-amlogic.inc
-require conf/machine/include/arm/arch-armv8.inc
+require conf/machine/include/arm/arch-armv8a.inc
 require conf/machine/include/soc-family.inc
 
 MACHINE_ESSENTIAL_EXTRA_RDEPENDS += "\

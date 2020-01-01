@@ -23,7 +23,9 @@ COMPATIBLE_MACHINE = "^(wetekplay)$"
 
 SRC_URI = "http://source.mynonpublic.com/wetek/linux-wetek-3.10.y-master.tar.gz \
     file://defconfig \
-    file://kernel-add-support-for-gcc6.patch \
+    file://0001-log2-give-up-on-gcc-constant-optimizations.patch \
+    file://0002-uaccess-dont-mark-register-as-const.patch \
+    file://0003-makefile-disable-warnings.patch \
 "
 
 S = "${WORKDIR}/linux-wetek-3.10.y-master"
